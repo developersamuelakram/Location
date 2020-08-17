@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:text="BANGKOK"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:id="@+id/cityname"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/cityname"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:id="@+id/longtitude"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/longtitude"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:id="@+id/lattitude"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lattitude"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:text=""
+        android:id="@+id/countryname"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="GET LOCATION"
+        android:layout_centerInParent="true"
+        android:id="@+id/getLocation"/>
+
+
+
+
+</RelativeLayout>
